@@ -1,8 +1,6 @@
 package ch04_operator;
 
-import java.util.SortedMap;
-
-public class OperatorName {
+public class OperatorMain {
     public static void main(String[] args) {
 
         // 산술 연산자(Operator)
@@ -158,7 +156,20 @@ public class OperatorName {
         // 각각 자른 문자열을 숫자로 변환 -> 2, 7, 8
         // 변환된 각 숫자를 전부 더하기 2 + 7 + 8
 
-        int ff = 278;
+        // 나머지 연산자(%) 사용 예시
+
+        // 홀수, 짝수 판별
+        int anyNum = 7;
+        // 2로 나눈 나머지가 0이면 짝수, 1이면 홀수
+        System.out.println(anyNum % 2);
+
+
+
+
+
+
+
+
 
 
 
